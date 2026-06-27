@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.web {
+    display: flex;
+    flex-direction: row;
+}
+#sidebar {
+    /*stack on each other row by row*/
+    display: flex;
+    flex-direction:column;
+    /*This sets the sidebar to left*/
+    position: static;
+    top: 0px; 
+    left: 0px; 
+    /*size of the sidebar*/
+    width: 200px;
+    height: 92.4vh;
+    /*gap of each component*/
+    gap: 20px;
+    /*color of the sidebar*/
+    background-color: #A23B46;
+    border: 2px solid black;
+    /*top space*/
+    padding-top: 50px;
+}
+
+#profile-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items:center;
+}
+
+.profile-icon {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    border: 2px solid black;
+    object-fit:fill;
+}
+
+#cart-btn {
+    border-radius: 25%;
+    width: 40px;
+    height: 35px;
+    margin: 0 0 0 20;
+    border: none;
+    background: #F0FAF7;
+    font-size: 20;
+    border: 2px solid black;
+}
+
+/*Navigation links/buttons */
+/*home, books, marchandise, wiki and logout*/
+.nav-links {
+  background: none; 
+  border: none; 
+  color: red;
+  margin: 0 10 10 10;
+  list-style: none;
+}
+#logout-btn {
+    margin-top: auto;
+    align-self: center;
+    margin-bottom: 30px;
+}
+/*The color of the hyperlinks*/
+a {
+    color: #F0FAF7;
+}
+
+/*Home page*/
+/*Hero where the user is being welcomed to the website*/
+#hero {
+    display:flex;
+    background: #A23B46;
+    color: #F0FAF7;
+    margin: 60 50 auto 50;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 250px;
+    align-items:end;
+    justify-content: left;
+    padding: 0 0 0 30;
+    font-size: 50px;
+}
