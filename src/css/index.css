@@ -1,11 +1,39 @@
 body {
-    margin: 0;
+    margin: 0px 0px 0px 0px;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
 }
 
 .web {
     display: flex;
     flex-direction: row;
 }
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0px;
+}
+
+.nav-titles {
+    font-family: "kanit";
+    margin-left: 50px;
+    font-size: 50px;
+    color: #374785;
+    text-shadow: 1px 1px px black;
+}
+
+h3 {
+    margin: 0px 0px 0px 0px;
+}
+
+
 #sidebar {
     /*stack on each other row by row*/
     display: flex;
@@ -61,6 +89,7 @@ body {
   color: red;
   margin: 0 10 10 10;
   list-style: none;
+  margin-bottom: 25px;
 }
 #logout-btn {
     margin-top: auto;
@@ -76,15 +105,18 @@ a {
 /*Hero where the user is being welcomed to the website*/
 #hero {
     display:flex;
-    background: #A23B46;
+    background: #3C6661;
     color: #F0FAF7;
-    margin: 60 50 auto 50;
+    margin: 0px 50px 0px 50px;
     border-radius: 10px;
     border: 2px solid black;
-    width: 100%;
+    width: 90%;
     height: 250px;
     align-items:end;
     justify-content: left;
-    padding: 0 0 0 30;
+    padding: 0px 20px 0px 30px;
     font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    font-family: "Kanit";
 }
+
