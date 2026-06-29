@@ -3,7 +3,63 @@
         <link rel = "stylesheet" href="../css/index.css"/>
     </head>
     <body>
-        <div id="sidebar-placeholder"></div>
+        <div class="web">
+            <div id="sidebar-placeholder"></div>
+            <div class="panel">
+                <div class="header-row">
+                    <div class="nav-titles">
+                        <h3>BOOKS</h3>
+                    </div>
+                    <button id="cart-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                    </button>
+                </div>
+                <div id = "book-panel">
+                    <div class="book-filter">
+                        <h2 id="catg">CATEGORIES</h2>
+                        <div class="catg-labels">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-library-icon lucide-library"><path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/></svg>
+                            <h3>FORMAT</h3>
+                        </div>
+                        <input type="checkbox" name="ALL" value="ALL">
+                        <label for="ALL">ALL</label><br>
+                        <input type="checkbox" name="Novels" value="Novels">
+                        <label for="Novels">Light Novel</label><br>
+                        <input type="checkbox" name="Manga" value="Manga">
+                        <label for="Manga">Manga</label><br>
+                        
+                        <div class="catg-labels">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bookmark-icon lucide-bookmark"><path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/></svg>
+                            <h3>ARCS</h3>
+                        </div>
+                        <input type="checkbox" name="yearOne" value="yearOne">
+                        <label for="yearOne">Year 0 to 1</label><br>
+                        <input type="checkbox" name="yearTwo" value="yearTwo">
+                        <label for="yearTwo">Year 2</label><br>
+                        <input type="checkbox" name="yearThree" value="yearThree">
+                        <label for="yearThree">Year 3</label><br>
+                        <input type="checkbox" name="spinOffs" value="spinOffs">
+                        <label for="spinOffs">Spin Offs</label><br>
+
+                        <div class="catg-labels">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-funnel-icon lucide-funnel"><path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/></svg>
+                            <h3>FILTER</h3>
+                        </div>
+                        <input type="checkbox" name="alphabetical" value="alphabetical">
+                        <label for="alphabetical">Alphabetical</label><br>
+                        <input type="checkbox" name="numerical" value="numerical">
+                        <label for="numerical">Numerical</label><br>
+                        <input type="checkbox" name="trending" value="trending">
+                        <label for="trending">Trending</label><br>
+                        <input type="checkbox" name="oldestTOnewest" value="oldestTOnewest">
+                        <label for="oldestTOnewest">Oldest to Newest</label><br>
+                        <input type="checkbox" name="newestTOoldest" value="newestTOoldest">
+                        <label for="newestTOoldest">Newest to Oldest</label><br>
+                    </div>
+                    <div id = "books-bg"></div>
+                </div>
+            </div>
+        </div>
     </body>
     <script src="../js/index.js"></script>
 </html>
