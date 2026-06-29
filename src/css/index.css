@@ -18,15 +18,17 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    gap: 0px;
+    gap: 20px;
+    background-image: url("../images/Whiteroom.png");
+    background-size: cover;
 }
 
 .nav-titles {
     font-family: "kanit";
     margin-left: 50px;
-    font-size: 50px;
-    color: #374785;
-    text-shadow: 1px 1px px black;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 h3 {
@@ -43,44 +45,52 @@ ul {
     margin: 0px 0px 0px 0px;
 }
 
-
 #sidebar {
-    /*stack on each other row by row*/
+    box-shadow: 1px 1px 1px black;
     display: flex;
     flex-direction:column;
-    /*This sets the sidebar to left*/
     position: static;
     top: 0px; 
     left: 0px; 
-    /*size of the sidebar*/
     width: 200px;
     height: 92.4vh;
-    /*gap of each component*/
     gap: 20px;
-    /*color of the sidebar*/
-    background-color: #A23B46;
+    background-color:   #cdced0;
     border: 2px solid black;
-    /*top space*/
     padding-top: 50px;
 }
 
-#profile-row {
+.header-row {
     display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-    align-items:center;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 50px;
 }
 
+
 .profile-icon {
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
     width: 80px;
     height: 80px;
     border-radius:50%;
     border: 2px solid black;
     object-fit:fill;
+    box-shadow: 1px 1px 1px black;
+    align-self: center;
+}
+
+.profile-icon svg {
+    color:#cdced0;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius:50%;
 }
 
 #cart-btn {
+    display: flex;
     border-radius: 25%;
     width: 40px;
     height: 35px;
@@ -89,6 +99,20 @@ ul {
     background: #F0FAF7;
     font-size: 20;
     border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+#cart-btn:hover {
+    background: #cdced0;
+}
+
+#cart-btn svg {
+    width: 25px;
+    height: 25px;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 /*Navigation links/buttons */
@@ -97,56 +121,60 @@ ul {
   background: none; 
   display: flex;
   border: none; 
-  margin: 0 0 0 0;
   list-style: none;
   margin-bottom: 10px;
   font-family: "Kanit";
-  justify-content: center;
-  padding: 10px 10px 10px 10px;
+  justify-content: left;
+  padding: 10px 10px 10px 40px;
 }
+
 .nav-links:hover { 
-  background: #a12b37;
-  padding: 10px 10px 10px 10px;
+  background: #b3b4b5;
+  padding: 10px 10px 10px 40px;
   cursor: pointer;
+}
+
+.nav-links a {
+    color: black;
 }
 
 #logout-btn {
     display:flex;
     justify-content: center;
-    margin-top: auto;
-    margin-bottom: 30px;
+    margin: auto 10px 30px 10px;
     font-family: "Kanit";
     padding: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
+
 #logout-btn:hover {
-    background: #a12b37;
-    padding: 10px 10px 10px 10px;
-    cursor: pointer;
+    background: #b3b4b5;
 }
 
 
 /*Home page*/
 /*Hero where the user is being welcomed to the website*/
 #hero {
+    background-image: url("../images/ANHS.png");
+    background-size: cover;
     display:flex;
-    background: #3C6661;
     color: #F0FAF7;
     margin: 0px 50px 30px 50px;
     border-radius: 10px;
     border: 2px solid black;
-    width: 90%;
     height: 250px;
     align-items:end;
     justify-content: left;
     padding: 0px 20px 0px 30px;
-    font-size: 50px;
-    text-shadow: 3px 3px 10px black;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
     font-family: "Kanit";
 }
 
 #cardnav-row {
     display: flex;
     flex-direction: row;
+    margin: 0px 0px 0px 0px;
     gap: 50px;
     justify-content: center;
     align-items: center;
@@ -154,14 +182,28 @@ ul {
 
 .cardnav {
     display:flex;
-    align-items:flex-end;
-    font-size: 50px;
-    width: 550px;
+    flex: 1;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
     height: 280px;
-    background: #3E6E7E;
+    width: 567px;
+    background: rgba(205, 206, 208, 0.5); /* translucent background ONLY, not affecting children */
     border: 2px solid black;
     border-radius: 10px;
     font-family: "kanit";
     padding-left: 20px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
+
+.cardnav svg {
+    height: 30vh;
+    width: 30vh;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.cardnav:hover {
+    background: rgb(205, 206, 208); 
+}
+
