@@ -28,7 +28,7 @@ if (book) {
         Back
       </a>
     </div>
-    <p style="margin: 50px; font-family: Bebas Neue;">Book not found.</p>
+    <p style="margin: 50px; font-family: M PLUS 1p;">Book not found.</p>
   `;
 }
 
