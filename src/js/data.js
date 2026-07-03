@@ -36,7 +36,7 @@ const books = [
     format: "novel",
     price: 15.99,
     image: "../images/bookIMG/y2v3.png",
-    description: "A White Room agent infiltrates the new first-years to expel Ayanokoji, while Class 2-D navigates a written exam paired with the unpredictable first-years to survive without losing anyone.",
+    description: "As second years, Ayanokoji's class is paired with the incoming first years for a written exam. Only the second years face expulsion if their team scores poorly. Complicating things: one of the new first years is secretly a White Room agent sent to take Ayanokoji down.",
     date: "2020-01-25",
     trending: 1,
   },

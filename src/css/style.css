@@ -228,6 +228,7 @@ ul {
     font-family: "M PLUS 1p";
     padding-left: 14px;
     text-shadow: 1px 1px 1px black;
+    transition: transform 0.2s, background 0.2s;
 }
 
 .cardnav svg {
@@ -239,7 +240,7 @@ ul {
 .cardnav:hover {
     background: url("../images/navi-archive_marker.png") no-repeat left top, rgba(255, 255, 255, 0.8);
     background-size: 25px;
-
+    Transform: translateY(-4px);
 }
 
 /*BOOKS PANEL----------------------------------------------------------------*/
@@ -279,7 +280,7 @@ ul {
     background: rgba(255, 255, 255, 0.5);
     height: 85vh;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid #a3003e;
     display: flex;
     flex-direction: column;
 }
@@ -300,7 +301,6 @@ ul {
     margin-left: 50px;
     height: 400px;
     width: 300px;
-    border: 2px solid black;
 }
 
 .book-info {
@@ -323,8 +323,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-family: "M PLUS 1p";
-    color: white;
-    text-shadow: 1px 1px 3px black;
+    color: black;
 }
 
 .book-type {
@@ -334,8 +333,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-family: "M PLUS 1p";
-    color: white;
-    text-shadow: 1px 1px 3px black;
+    color: #a3003e;
 }
 
 #book-price {
