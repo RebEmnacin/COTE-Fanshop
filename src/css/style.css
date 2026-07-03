@@ -19,8 +19,9 @@ body {
     flex-direction: column;
     flex-grow: 1;
     gap: 0px;
-    background-image: url("../images/Whiteroom.png");
-    background-size: cover;
+    background-image: url("../images/coteWall.png");
+    background-repeat: repeat;
+    background-size: 640px 400px;
 }
 
 .nav-titles {
