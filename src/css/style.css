@@ -423,7 +423,6 @@ ul {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.2s, background 0.2s;
-    
 }
 
 .book-card:hover {
@@ -501,4 +500,23 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+}
+
+/*Product Cards---------*/
+.prod-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    margin: 20px;
+}
+
+.prod-card:hover {
+    background: #a9194a;
+    transform: translateY(-4px);
 }

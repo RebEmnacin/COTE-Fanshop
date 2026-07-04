@@ -97,3 +97,14 @@ const books = [
 //   trending: 8,                    ← rank (lower = more trending)
 // },
 // ============================================================
+
+
+const merchandise =  [
+  {
+    id: 1,
+    type: "Keychain",
+    title: "Ayanokouji CHIBI Keychain",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/Keychain.png"
+  },
+]
