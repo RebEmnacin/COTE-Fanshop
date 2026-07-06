@@ -5,7 +5,7 @@ function renderProds(filteredProds) {
     prodBG.innerHTML = "";
 
     if (filteredProds.length < 1) {
-        prodBG.innerHTML = "No results founds";
+        prodBG.innerHTML = "No results found";
         return;
     }
 
