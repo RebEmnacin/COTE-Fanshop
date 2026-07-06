@@ -1,4 +1,5 @@
 const prodBG = document.getElementById("prod-bg");
+const prodType = document.getElementById("prodType");
 
 function renderProds(filteredProds) {
     prodBG.innerHTML = "";
@@ -28,3 +29,17 @@ function renderProds(filteredProds) {
 
 renderProds(merchandise);
 
+function applyFilters() {
+    const typeFilter = prodType.value;
+
+    const prodFilter = merchandise.filter(function(prod) {
+        return prod.type === typeFilter;
+    });
+
+    renderProds(prodFilter);
+}
+applyFilters();
+
+prodType.addEventListener('change', function() {
+    applyFilters();
+});
