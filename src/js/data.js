@@ -102,7 +102,7 @@ const books = [
 const merchandise =  [
   {
     id: 1,
-    type: "Keychain",
+    type: "keychains",
     title: "Ayanokouji CHIBI Keychain",
     price: 2.50, 
     image: "../images/merchandiseIMG/Keychain.png"
