@@ -107,4 +107,18 @@ const merchandise =  [
     price: 2.50, 
     image: "../images/merchandiseIMG/Keychain.png"
   },
+  {
+    id: 2,
+    type: "figurines",
+    title: "Ayanokouji CHIBI Keychain",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/Keychain.png"
+  },
+  {
+    id: 3,
+    type: "posters",
+    title: "Ayanokouji CHIBI Keychain",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/Keychain.png"
+  },
 ]
