@@ -110,15 +110,15 @@ const merchandise =  [
   {
     id: 2,
     type: "figurines",
-    title: "Ayanokouji CHIBI Keychain",
-    price: 2.50, 
-    image: "../images/merchandiseIMG/Keychain.png"
+    title: "Sakayanagi Figurine",
+    price: 5.00, 
+    image: "../images/merchandiseIMG/sakayanagi figurine.webp"
   },
   {
     id: 3,
     type: "posters",
-    title: "Ayanokouji CHIBI Keychain",
+    title: "COTE Year 2 Poster",
     price: 2.50, 
-    image: "../images/merchandiseIMG/Keychain.png"
+    image: "../images/merchandiseIMG/cote poster.webp"
   },
 ]
