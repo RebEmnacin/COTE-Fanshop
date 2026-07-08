@@ -499,8 +499,14 @@ ul {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 10px;
+    gap: 20px;
+    padding: 20px;
+    align-content: flex-start;
+    overflow-y: auto;  
 }
+
 
 /*Product Cards---------*/
 .prod-card {
