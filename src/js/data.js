@@ -112,7 +112,7 @@ const merchandise =  [
     type: "figurines",
     title: "Sakayanagi Figurine",
     price: 5.00, 
-    image: "../images/merchandiseIMG/sakayanagi figurine.webp"
+    image: "../images/merchandiseIMG/sakayangi figurine.png"
   },
   {
     id: 3,

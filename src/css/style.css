@@ -502,7 +502,6 @@ ul {
     flex-wrap: wrap;
     margin-top: 10px;
     gap: 20px;
-    padding: 20px;
     align-content: flex-start;
     overflow-y: auto;  
 }
