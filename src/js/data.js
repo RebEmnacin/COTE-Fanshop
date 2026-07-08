@@ -135,4 +135,11 @@ const merchandise =  [
     price: 2.50, 
     image: "../images/merchandiseIMG/horikita pin.png"
   },
+  {
+    id: 6,
+    type: "posters",
+    title: "(S2) Ryuen vs Ayanokouji",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/ryuen vs ayanouji.webp"
+  },
 ]
