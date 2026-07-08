@@ -32,9 +32,15 @@ renderProds(merchandise);
 function applyFilters() {
     const typeFilter = prodType.value;
 
-    const prodFilter = merchandise.filter(function(prod) {
-        return prod.type === typeFilter;
-    });
+    let prodFilter;
+
+    if (typeFilter === "all") {
+        prodFilter = merchandise;
+    } else {
+        prodFilter = merchandise.filter(function(prod) {
+            return prod.type === typeFilter;
+        });
+    }
 
     renderProds(prodFilter);
 }
