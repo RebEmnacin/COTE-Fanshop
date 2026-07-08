@@ -121,4 +121,18 @@ const merchandise =  [
     price: 2.50, 
     image: "../images/merchandiseIMG/cote poster.webp"
   },
+  {
+    id: 4,
+    type: "figurines",
+    title: "Karuizawa Figurine",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/karuizawa figurine.png"
+  },
+  {
+    id: 5,
+    type: "pins",
+    title: "Horikita Pin",
+    price: 2.50, 
+    image: "../images/merchandiseIMG/horikita pin.png"
+  },
 ]
