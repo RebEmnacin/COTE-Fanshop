@@ -22,8 +22,9 @@ function renderProds(filteredProds) {
         `;
 
         prodBG.appendChild(card);
-
-        
+        card.addEventListener('click', function() {
+        window.location.href = `ProdBuy.html?id=${merchandise.id}`;
+        });
     }); 
 }
 
