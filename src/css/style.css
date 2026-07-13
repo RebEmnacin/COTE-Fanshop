@@ -276,7 +276,7 @@ ul {
     overflow-y: auto;      /* scroll if too many books */
 }
 
-#bookshop-bg {
+#bookbuy-bg {
     background: rgba(255, 255, 255, 0.5);
     height: 85vh;
     width: 100%;
@@ -523,4 +523,34 @@ ul {
 .prod-card:hover {
     background: #a9194a;
     transform: translateY(-4px);
+}
+
+.prod-title {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "M PLUS 1p";
+    color: black;
+}
+
+.prod-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: "M PLUS 1p";
+}
+
+.prod-image {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 400px;
+    width: 300px;
+}
+
+.prod-details {
+    margin: 0px;
+    display:flex;
+    flex-direction: row;
 }
