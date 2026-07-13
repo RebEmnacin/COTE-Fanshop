@@ -20,3 +20,22 @@ if (prod) {
     <p style="margin: 50px; font-family: M PLUS 1p;">Product not found.</p>
   `;
 }
+
+const qtyInput = document.querySelector('#item-qty input');
+const minusBtn = document.querySelectorAll('#item-qty button')[0]; // first button = minus
+const plusBtn  = document.querySelectorAll('#item-qty button')[1]; // second button = plus
+
+minusBtn.addEventListener('click', function() {
+  // parseInt reads the input's current value as a number
+  let current = parseInt(qtyInput.value);
+  if (current > 1) {
+    qtyInput.value = current - 1;
+  }
+});
+
+plusBtn.addEventListener('click', function() {
+  let current = parseInt(qtyInput.value);
+  if (current < 10) {
+    qtyInput.value = current + 1;
+  }
+});

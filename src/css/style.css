@@ -542,11 +542,16 @@ ul {
     font-family: "M PLUS 1p";
 }
 
+.prod-info p{
+    margin-left: 50px;
+}
+
 .prod-image {
     margin-top: 10px;
     margin-left: 50px;
     height: 400px;
     width: 300px;
+    object-fit: contain;
 }
 
 .prod-details {
