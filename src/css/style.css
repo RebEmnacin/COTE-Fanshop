@@ -554,3 +554,30 @@ ul {
     display:flex;
     flex-direction: row;
 }
+
+#prodbuy-bg {
+    background: rgba(255, 255, 255, 0.5);
+    height: 85vh;
+    width: 100%;
+    border: 2px solid #a3003e;
+    display: flex;
+    flex-direction: column;
+}
+
+#prod-price {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#prodshop-btn {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: left;
+    gap: 20px;
+    width: 100%;
+    height: 30px;
+}
