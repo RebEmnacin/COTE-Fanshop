@@ -104,6 +104,7 @@ const merchandise =  [
     id: 1,
     type: "keychains",
     title: "Ayanokouji CHIBI Keychain",
+    description: "A keychain looking like CHIBI Ayanokouji Kiyotaka",
     price: 2.50, 
     image: "../images/merchandiseIMG/Keychain.png"
   },
@@ -111,6 +112,7 @@ const merchandise =  [
     id: 2,
     type: "figurines",
     title: "Sakayanagi Figurine",
+    description: "A figurine looking like Sakayanagi Arisu",
     price: 5.00, 
     image: "../images/merchandiseIMG/sakayangi figurine.png"
   },
@@ -118,6 +120,7 @@ const merchandise =  [
     id: 3,
     type: "posters",
     title: "COTE Year 2 Poster",
+    description: "A poster looking for 2nd Year Classroom of the elite",
     price: 2.50, 
     image: "../images/merchandiseIMG/cote poster.webp"
   },
@@ -125,13 +128,15 @@ const merchandise =  [
     id: 4,
     type: "figurines",
     title: "Karuizawa Figurine",
+    description: "A figurine looking like Karuizawa Kei",
     price: 2.50, 
     image: "../images/merchandiseIMG/karuizawa figurine.png"
   },
   {
     id: 5,
     type: "pins",
-    title: "Horikita Pin",
+    title: "CHIBI Horikita Pin",
+    description: "A pin looking like CHIBI Horikita Suzune",
     price: 2.50, 
     image: "../images/merchandiseIMG/horikita pin.png"
   },
@@ -139,6 +144,7 @@ const merchandise =  [
     id: 6,
     type: "posters",
     title: "(S2) Ryuen vs Ayanokouji",
+    description: "A poster with Ryuen against Ayanouji Season 2 of COTE",
     price: 2.50, 
     image: "../images/merchandiseIMG/ryuen vs ayanouji.webp"
   },
